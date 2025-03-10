@@ -1,0 +1,1 @@
+My attempt at implementing listener pattern in go
