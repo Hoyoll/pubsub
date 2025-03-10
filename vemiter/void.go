@@ -43,7 +43,7 @@ func (this *container[KEY, ARGS]) Emit(name KEY, dependency ARGS) {
 	}
 }
 
-func (this *container[KEY, ARGS]) All(dependency ARGS)  {
+func (this *container[KEY, ARGS]) All(dependency ARGS) {
 	for _, worker := range this.Worker {
 		(*worker)(dependency)
 	}

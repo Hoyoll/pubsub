@@ -1,1 +1,2 @@
-My attempt at implementing listener pattern in go
+# pubsub
+my attempt at making event listener in go
